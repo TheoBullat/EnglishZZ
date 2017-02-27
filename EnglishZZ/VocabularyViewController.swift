@@ -38,6 +38,11 @@ class VocabularyViewController: UIViewController {
     
     let numberOfVocabularyElements = 6
     
+    // Liste de messages de félicitations
+    var congratulations = [String]()
+    
+    @IBOutlet weak var answerView: UIView!
+    
     var theme: Theme!    
     var tabName = [String]()
     var tabImageName = [String]()
@@ -140,8 +145,21 @@ class VocabularyViewController: UIViewController {
         
         if countOfCheck >= 6 {
             
-            // Vider la vue
-            // Créer dynamiquement un label Félicitations, 2 bouttons Replay/Exit
+            answerView.alpha = 1
+            
+            for view in answerView.subviews {
+                view.removeFromSuperview()
+            }
+            
+            let congratulationLabel = UILabel(frame: CGRect(x: answerView.center.x-400, y: answerView.frame.origin.y, width: 800, height: 200))
+            customCongratulationLabel(label: congratulationLabel)
+            
+            let replay = UIButton(frame: CGRect(x: answerView.center.x-125, y: answerView.frame.origin.y+200, width: 250, height: 120))
+            customReplayButton(replay: replay)
+            
+            let exit = UIButton(frame: CGRect(x: answerView.center.x-125, y: answerView.frame.origin.y+300, width: 250, height: 120))
+            customExitButton(exit: exit)
+
         }
     }
     
@@ -151,5 +169,99 @@ class VocabularyViewController: UIViewController {
         
         let exoSelectionVC = segue.destination as! ExoSelectionViewController
         exoSelectionVC.theme = self.theme
+    }
+    
+    
+    
+    
+    func fillCongratulationsList() {
+        
+        congratulations.append("Amazing !")
+        congratulations.append("Huge !")
+        congratulations.append("Fantastic !")
+        congratulations.append("Awesome !")
+        congratulations.append("Congratulations !")
+        congratulations.append("Great !")
+        congratulations.append("Brilliant !")
+        
+    }
+    
+    
+    func customCongratulationLabel(label: UILabel) {
+        
+        let i = arc4random_uniform(UInt32(congratulations.count))
+        
+        let rainbowColorMessage = NSMutableAttributedString(string: self.congratulations[Int(i)], attributes: [NSFontAttributeName:UIFont(name: "Back_to_School_", size: 100)!])
+        
+        for i in 0...self.congratulations[Int(i)].characters.count-1 {
+            
+            if i == 0 {
+                
+                rainbowColorMessage.addAttribute(NSForegroundColorAttributeName, value: UIColor.red, range: NSRange(location: i, length: 1))
+            }
+            else if i % 3 == 0 {
+                
+                rainbowColorMessage.addAttribute(NSForegroundColorAttributeName, value: UIColor.yellow, range: NSRange(location: i, length: 1))
+            }
+            else if i % 5 == 0 {
+                
+                rainbowColorMessage.addAttribute(NSForegroundColorAttributeName, value: UIColor.red, range: NSRange(location: i, length: 1))
+            }
+            else if i % 2 == 0 {
+                
+                rainbowColorMessage.addAttribute(NSForegroundColorAttributeName, value: UIColor.blue, range: NSRange(location: i, length: 1))
+            }
+            else {
+                
+                rainbowColorMessage.addAttribute(NSForegroundColorAttributeName, value: UIColor.green, range: NSRange(location: i, length: 1))
+            }
+        }
+        
+        
+        label.attributedText = rainbowColorMessage
+        label.textAlignment = .center
+        
+        answerView.addSubview(label)
+    }
+    
+    
+    
+    func replayGame() {
+        
+        self.viewDidLoad()
+    }
+    
+    // Fonction appelée pour quitter le jeu en cliquant sur le bouton exit
+    func exitGame() {
+        
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "SIDExoSelection") as! ExoSelectionViewController
+        
+        nextViewController.theme = self.theme
+        
+        self.present(nextViewController, animated:true, completion:nil)
+    }
+    
+    
+    // Fonction décorant le bouton replay
+    func customReplayButton(replay: UIButton) {
+        
+        replay.addTarget(self, action: #selector(MatchViewController.replayGame), for: .touchUpInside)
+        replay.setTitle("Replay", for: UIControlState.normal)
+        replay.setTitleColor(UIColor.black, for: UIControlState.normal)
+        replay.titleLabel?.font = UIFont(name: "Back_to_School_", size: 60)
+        
+        answerView.addSubview(replay)
+    }
+    
+    func customExitButton(exit: UIButton) {
+        
+        exit.addTarget(self, action: #selector(MatchViewController.exitGame), for: .touchUpInside)
+        exit.setTitle("Exit", for: UIControlState.normal)
+        exit.setTitleColor(UIColor.black, for: UIControlState.normal)
+        exit.titleLabel?.font = UIFont(name: "Back_to_School_", size: 60)
+        
+        answerView.addSubview(exit)
     }
 }

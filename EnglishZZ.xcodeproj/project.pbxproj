@@ -12,6 +12,26 @@
 		243C6C201E21194600EE9AB2 /* DALTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C6C1F1E21194600EE9AB2 /* DALTheme.swift */; };
 		243C6C271E2165C500EE9AB2 /* school.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 243C6C261E2165C500EE9AB2 /* school.ttf */; };
 		243C6C2D1E21E3B100EE9AB2 /* PutInOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C6C2C1E21E3B100EE9AB2 /* PutInOrderViewController.swift */; };
+		246014A71E36750400168E3D /* Bells.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014911E36750400168E3D /* Bells.m4a */; };
+		246014A81E36750400168E3D /* Chimney.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014921E36750400168E3D /* Chimney.m4a */; };
+		246014A91E36750400168E3D /* ChristmasTree.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014931E36750400168E3D /* ChristmasTree.m4a */; };
+		246014AA1E36750400168E3D /* Presents.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014941E36750400168E3D /* Presents.m4a */; };
+		246014AB1E36750400168E3D /* SantaClaus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014951E36750400168E3D /* SantaClaus.m4a */; };
+		246014AC1E36750400168E3D /* Snowman.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014961E36750400168E3D /* Snowman.m4a */; };
+		246014AD1E36750400168E3D /* Star.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014971E36750400168E3D /* Star.m4a */; };
+		246014AE1E36750400168E3D /* Amazing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014991E36750400168E3D /* Amazing.m4a */; };
+		246014AF1E36750400168E3D /* Awesome.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2460149A1E36750400168E3D /* Awesome.m4a */; };
+		246014B01E36750400168E3D /* Fantastic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2460149B1E36750400168E3D /* Fantastic.m4a */; };
+		246014B11E36750400168E3D /* Great.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2460149C1E36750400168E3D /* Great.m4a */; };
+		246014B21E36750400168E3D /* Incredible.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2460149D1E36750400168E3D /* Incredible.m4a */; };
+		246014B31E36750400168E3D /* NiceJob.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2460149E1E36750400168E3D /* NiceJob.m4a */; };
+		246014B41E36750400168E3D /* Book.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A01E36750400168E3D /* Book.m4a */; };
+		246014B51E36750400168E3D /* Glue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A11E36750400168E3D /* Glue.m4a */; };
+		246014B61E36750400168E3D /* Pen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A21E36750400168E3D /* Pen.m4a */; };
+		246014B71E36750400168E3D /* PencilCase.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A31E36750400168E3D /* PencilCase.m4a */; };
+		246014B81E36750400168E3D /* School.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A41E36750400168E3D /* School.m4a */; };
+		246014B91E36750400168E3D /* SchoolBag.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A51E36750400168E3D /* SchoolBag.m4a */; };
+		246014BA1E36750400168E3D /* Scissors.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A61E36750400168E3D /* Scissors.m4a */; };
 		249D8E551E0AC0DF0044E90B /* VocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249D8E541E0AC0DF0044E90B /* VocabularyViewController.swift */; };
 		249D8E571E0AFD5A0044E90B /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249D8E561E0AFD5A0044E90B /* MatchViewController.swift */; };
 		24B2CA311E09BB2C0005982D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B2CA301E09BB2C0005982D /* AppDelegate.swift */; };
@@ -21,14 +41,6 @@
 		24DD0DEE1E1E79DF00865290 /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD0DED1E1E79DF00865290 /* Shuffle.swift */; };
 		24DD0DF01E1E7F6700865290 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD0DEF1E1E7F6700865290 /* Vocabulary.swift */; };
 		24DD0DF21E1E858600865290 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD0DF11E1E858600865290 /* Theme.swift */; };
-		24DD0E031E1EEA8F00865290 /* Book.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24DD0DFB1E1EEA8F00865290 /* Book.m4a */; };
-		24DD0E041E1EEA8F00865290 /* Glue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24DD0DFC1E1EEA8F00865290 /* Glue.m4a */; };
-		24DD0E051E1EEA8F00865290 /* NoSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24DD0DFD1E1EEA8F00865290 /* NoSound.m4a */; };
-		24DD0E061E1EEA8F00865290 /* Pen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24DD0DFE1E1EEA8F00865290 /* Pen.m4a */; };
-		24DD0E071E1EEA8F00865290 /* PencilCase.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24DD0DFF1E1EEA8F00865290 /* PencilCase.m4a */; };
-		24DD0E081E1EEA8F00865290 /* School.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24DD0E001E1EEA8F00865290 /* School.m4a */; };
-		24DD0E091E1EEA8F00865290 /* SchoolBag.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24DD0E011E1EEA8F00865290 /* SchoolBag.m4a */; };
-		24DD0E0A1E1EEA8F00865290 /* Scissors.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24DD0E021E1EEA8F00865290 /* Scissors.m4a */; };
 		24DD0E0C1E1EEE9000865290 /* ThemeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DD0E0B1E1EEE9000865290 /* ThemeSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +50,26 @@
 		243C6C1F1E21194600EE9AB2 /* DALTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DALTheme.swift; sourceTree = "<group>"; };
 		243C6C261E2165C500EE9AB2 /* school.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = school.ttf; path = Font/school.ttf; sourceTree = SOURCE_ROOT; };
 		243C6C2C1E21E3B100EE9AB2 /* PutInOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PutInOrderViewController.swift; sourceTree = "<group>"; };
+		246014911E36750400168E3D /* Bells.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bells.m4a; sourceTree = "<group>"; };
+		246014921E36750400168E3D /* Chimney.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chimney.m4a; sourceTree = "<group>"; };
+		246014931E36750400168E3D /* ChristmasTree.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChristmasTree.m4a; sourceTree = "<group>"; };
+		246014941E36750400168E3D /* Presents.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Presents.m4a; sourceTree = "<group>"; };
+		246014951E36750400168E3D /* SantaClaus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SantaClaus.m4a; sourceTree = "<group>"; };
+		246014961E36750400168E3D /* Snowman.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snowman.m4a; sourceTree = "<group>"; };
+		246014971E36750400168E3D /* Star.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Star.m4a; sourceTree = "<group>"; };
+		246014991E36750400168E3D /* Amazing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amazing.m4a; sourceTree = "<group>"; };
+		2460149A1E36750400168E3D /* Awesome.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Awesome.m4a; sourceTree = "<group>"; };
+		2460149B1E36750400168E3D /* Fantastic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fantastic.m4a; sourceTree = "<group>"; };
+		2460149C1E36750400168E3D /* Great.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Great.m4a; sourceTree = "<group>"; };
+		2460149D1E36750400168E3D /* Incredible.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Incredible.m4a; sourceTree = "<group>"; };
+		2460149E1E36750400168E3D /* NiceJob.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = NiceJob.m4a; sourceTree = "<group>"; };
+		246014A01E36750400168E3D /* Book.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Book.m4a; sourceTree = "<group>"; };
+		246014A11E36750400168E3D /* Glue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Glue.m4a; sourceTree = "<group>"; };
+		246014A21E36750400168E3D /* Pen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pen.m4a; sourceTree = "<group>"; };
+		246014A31E36750400168E3D /* PencilCase.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = PencilCase.m4a; sourceTree = "<group>"; };
+		246014A41E36750400168E3D /* School.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = School.m4a; sourceTree = "<group>"; };
+		246014A51E36750400168E3D /* SchoolBag.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SchoolBag.m4a; sourceTree = "<group>"; };
+		246014A61E36750400168E3D /* Scissors.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scissors.m4a; sourceTree = "<group>"; };
 		249D8E541E0AC0DF0044E90B /* VocabularyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocabularyViewController.swift; sourceTree = "<group>"; };
 		249D8E561E0AFD5A0044E90B /* MatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
 		24B2CA2D1E09BB2B0005982D /* EnglishZZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishZZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,14 +81,6 @@
 		24DD0DED1E1E79DF00865290 /* Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
 		24DD0DEF1E1E7F6700865290 /* Vocabulary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
 		24DD0DF11E1E858600865290 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		24DD0DFB1E1EEA8F00865290 /* Book.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Book.m4a; path = Sound/Book.m4a; sourceTree = SOURCE_ROOT; };
-		24DD0DFC1E1EEA8F00865290 /* Glue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Glue.m4a; path = Sound/Glue.m4a; sourceTree = SOURCE_ROOT; };
-		24DD0DFD1E1EEA8F00865290 /* NoSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = NoSound.m4a; path = Sound/NoSound.m4a; sourceTree = SOURCE_ROOT; };
-		24DD0DFE1E1EEA8F00865290 /* Pen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pen.m4a; path = Sound/Pen.m4a; sourceTree = SOURCE_ROOT; };
-		24DD0DFF1E1EEA8F00865290 /* PencilCase.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = PencilCase.m4a; path = Sound/PencilCase.m4a; sourceTree = SOURCE_ROOT; };
-		24DD0E001E1EEA8F00865290 /* School.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = School.m4a; path = Sound/School.m4a; sourceTree = SOURCE_ROOT; };
-		24DD0E011E1EEA8F00865290 /* SchoolBag.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = SchoolBag.m4a; path = Sound/SchoolBag.m4a; sourceTree = SOURCE_ROOT; };
-		24DD0E021E1EEA8F00865290 /* Scissors.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = Scissors.m4a; path = Sound/Scissors.m4a; sourceTree = SOURCE_ROOT; };
 		24DD0E0B1E1EEE9000865290 /* ThemeSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,10 +119,62 @@
 			name = Font;
 			sourceTree = "<group>";
 		};
+		2460148F1E36750400168E3D /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				246014901E36750400168E3D /* Christmas */,
+				246014981E36750400168E3D /* Congratulation */,
+				2460149F1E36750400168E3D /* Ecole */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		246014901E36750400168E3D /* Christmas */ = {
+			isa = PBXGroup;
+			children = (
+				246014911E36750400168E3D /* Bells.m4a */,
+				246014921E36750400168E3D /* Chimney.m4a */,
+				246014931E36750400168E3D /* ChristmasTree.m4a */,
+				246014941E36750400168E3D /* Presents.m4a */,
+				246014951E36750400168E3D /* SantaClaus.m4a */,
+				246014961E36750400168E3D /* Snowman.m4a */,
+				246014971E36750400168E3D /* Star.m4a */,
+			);
+			path = Christmas;
+			sourceTree = "<group>";
+		};
+		246014981E36750400168E3D /* Congratulation */ = {
+			isa = PBXGroup;
+			children = (
+				246014991E36750400168E3D /* Amazing.m4a */,
+				2460149A1E36750400168E3D /* Awesome.m4a */,
+				2460149B1E36750400168E3D /* Fantastic.m4a */,
+				2460149C1E36750400168E3D /* Great.m4a */,
+				2460149D1E36750400168E3D /* Incredible.m4a */,
+				2460149E1E36750400168E3D /* NiceJob.m4a */,
+			);
+			path = Congratulation;
+			sourceTree = "<group>";
+		};
+		2460149F1E36750400168E3D /* Ecole */ = {
+			isa = PBXGroup;
+			children = (
+				246014A01E36750400168E3D /* Book.m4a */,
+				246014A11E36750400168E3D /* Glue.m4a */,
+				246014A21E36750400168E3D /* Pen.m4a */,
+				246014A31E36750400168E3D /* PencilCase.m4a */,
+				246014A41E36750400168E3D /* School.m4a */,
+				246014A51E36750400168E3D /* SchoolBag.m4a */,
+				246014A61E36750400168E3D /* Scissors.m4a */,
+			);
+			path = Ecole;
+			sourceTree = "<group>";
+		};
 		24B2CA241E09BB2B0005982D = {
 			isa = PBXGroup;
 			children = (
 				24B2CA2F1E09BB2B0005982D /* EnglishZZ */,
+				2460148F1E36750400168E3D /* Sound */,
 				24B2CA2E1E09BB2B0005982D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,33 +200,8 @@
 				24B2CA371E09BB2C0005982D /* Assets.xcassets */,
 				24B2CA391E09BB2C0005982D /* LaunchScreen.storyboard */,
 				24B2CA3C1E09BB2C0005982D /* Info.plist */,
-				24DD0DE11E1D59FB00865290 /* Sound */,
 			);
 			path = EnglishZZ;
-			sourceTree = "<group>";
-		};
-		24DD0DE11E1D59FB00865290 /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-				24DD0E0D1E1F00D400865290 /* Christmas */,
-				24DD0DEC1E1D5B1D00865290 /* School */,
-			);
-			name = Sound;
-			sourceTree = "<group>";
-		};
-		24DD0DEC1E1D5B1D00865290 /* School */ = {
-			isa = PBXGroup;
-			children = (
-				24DD0DFB1E1EEA8F00865290 /* Book.m4a */,
-				24DD0DFC1E1EEA8F00865290 /* Glue.m4a */,
-				24DD0DFD1E1EEA8F00865290 /* NoSound.m4a */,
-				24DD0DFE1E1EEA8F00865290 /* Pen.m4a */,
-				24DD0DFF1E1EEA8F00865290 /* PencilCase.m4a */,
-				24DD0E001E1EEA8F00865290 /* School.m4a */,
-				24DD0E011E1EEA8F00865290 /* SchoolBag.m4a */,
-				24DD0E021E1EEA8F00865290 /* Scissors.m4a */,
-			);
-			name = School;
 			sourceTree = "<group>";
 		};
 		24DD0DF31E1E879300865290 /* Controller */ = {
@@ -173,13 +224,6 @@
 				24DD0DF11E1E858600865290 /* Theme.swift */,
 			);
 			name = Metier;
-			sourceTree = "<group>";
-		};
-		24DD0E0D1E1F00D400865290 /* Christmas */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Christmas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,18 +285,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD0E0A1E1EEA8F00865290 /* Scissors.m4a in Resources */,
+				246014B91E36750400168E3D /* SchoolBag.m4a in Resources */,
+				246014B81E36750400168E3D /* School.m4a in Resources */,
+				246014AD1E36750400168E3D /* Star.m4a in Resources */,
+				246014B71E36750400168E3D /* PencilCase.m4a in Resources */,
+				246014B31E36750400168E3D /* NiceJob.m4a in Resources */,
+				246014AA1E36750400168E3D /* Presents.m4a in Resources */,
 				24B2CA3B1E09BB2C0005982D /* LaunchScreen.storyboard in Resources */,
+				246014B51E36750400168E3D /* Glue.m4a in Resources */,
+				246014AF1E36750400168E3D /* Awesome.m4a in Resources */,
+				246014AB1E36750400168E3D /* SantaClaus.m4a in Resources */,
 				243C6C271E2165C500EE9AB2 /* school.ttf in Resources */,
+				246014B01E36750400168E3D /* Fantastic.m4a in Resources */,
+				246014A91E36750400168E3D /* ChristmasTree.m4a in Resources */,
+				246014A81E36750400168E3D /* Chimney.m4a in Resources */,
+				246014AC1E36750400168E3D /* Snowman.m4a in Resources */,
+				246014B11E36750400168E3D /* Great.m4a in Resources */,
 				24B2CA381E09BB2C0005982D /* Assets.xcassets in Resources */,
-				24DD0E051E1EEA8F00865290 /* NoSound.m4a in Resources */,
-				24DD0E061E1EEA8F00865290 /* Pen.m4a in Resources */,
 				240DBE481E2B436800C7F96B /* Main.storyboard in Resources */,
-				24DD0E091E1EEA8F00865290 /* SchoolBag.m4a in Resources */,
-				24DD0E071E1EEA8F00865290 /* PencilCase.m4a in Resources */,
-				24DD0E031E1EEA8F00865290 /* Book.m4a in Resources */,
-				24DD0E081E1EEA8F00865290 /* School.m4a in Resources */,
-				24DD0E041E1EEA8F00865290 /* Glue.m4a in Resources */,
+				246014AE1E36750400168E3D /* Amazing.m4a in Resources */,
+				246014A71E36750400168E3D /* Bells.m4a in Resources */,
+				246014B21E36750400168E3D /* Incredible.m4a in Resources */,
+				246014BA1E36750400168E3D /* Scissors.m4a in Resources */,
+				246014B61E36750400168E3D /* Pen.m4a in Resources */,
+				246014B41E36750400168E3D /* Book.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
