@@ -33,16 +33,11 @@ class Theme : Vocabulary {
     func getVocabulary(numberOfVocab: Int) -> [Vocabulary] {
         
         var shorterTabVocab = [Vocabulary]()
-        let totalOfVocab = getLength()
-        
-        if totalOfVocab >= numberOfVocab {
+        tabVocabulary.shuffle()
             
-            tabVocabulary.shuffle()
-            
-            for i in 0...numberOfVocab {
+        for i in 0...numberOfVocab-1 {
                 
-                shorterTabVocab.append(tabVocabulary[i])
-            }
+            shorterTabVocab.append(tabVocabulary[i])
         }
         
         return shorterTabVocab

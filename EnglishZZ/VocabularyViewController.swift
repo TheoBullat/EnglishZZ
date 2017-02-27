@@ -40,15 +40,15 @@ class VocabularyViewController: UIViewController {
     
     // Liste de messages de félicitations
     var congratulations = [String]()
-    
+
     @IBOutlet weak var answerView: UIView!
     
     var theme: Theme!    
     var tabName = [String]()
     var tabImageName = [String]()
     var tabSoundName = [String]()
-    var tabExtension = [String]()
 
+    let semaphore = DispatchSemaphore(value: 1)
     var countOfCheck = Int()
     
     // Fonction permettant de remplir chacune de nos listes d'éléments (Boutons, Images, Labels)
@@ -90,16 +90,16 @@ class VocabularyViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        answerView.alpha = 0
         let listVocabulary = self.theme.getVocabulary(numberOfVocab: numberOfVocabularyElements)
         
         fillTheList()
-        
+        fillCongratulationsList()
         for i in 0...numberOfVocabularyElements-1 {
             
             self.tabName.append(listVocabulary[i].getName())
             self.tabImageName.append(listVocabulary[i].getImageName())
             self.tabSoundName.append(listVocabulary[i].getSoundName())
-            self.tabExtension.append(listVocabulary[i].getSoundExtension())
             self.listLabel[i].text = ""
             self.listImage[i].alpha = 0
             self.listButton[i].setImage(UIImage.init(named: tabImageName[i]), for: UIControlState.normal)
@@ -134,8 +134,7 @@ class VocabularyViewController: UIViewController {
         // On affiche le bouton "Suivant"
     @IBAction func ButtonPressed(_ sender: UIButton) {
 
-        playSound(name: tabSoundName[sender.tag], extensionName: tabExtension[sender.tag])
-        
+        semaphore.wait()
         if listLabel[sender.tag].text == "" {
             
             listLabel[sender.tag].text = tabName[sender.tag]
@@ -143,6 +142,9 @@ class VocabularyViewController: UIViewController {
             countOfCheck += 1
         }
         
+        playSound(name: tabSoundName[sender.tag], extensionName: "m4a")
+        usleep(1000000)
+        semaphore.signal()
         if countOfCheck >= 6 {
             
             answerView.alpha = 1
@@ -159,7 +161,6 @@ class VocabularyViewController: UIViewController {
             
             let exit = UIButton(frame: CGRect(x: answerView.center.x-125, y: answerView.frame.origin.y+300, width: 250, height: 120))
             customExitButton(exit: exit)
-
         }
     }
     

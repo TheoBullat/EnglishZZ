@@ -27,11 +27,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5S5-N6-f5S">
-                                <rect key="frame" x="37" y="85" width="950" height="483"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a theme !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86w-iq-pCp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a theme !" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86w-iq-pCp">
                                 <rect key="frame" x="0.0" y="46" width="1024" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.60972016210000002" green="0.8279761967" blue="0.90588235289999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -39,8 +35,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5S5-N6-f5S">
+                                <rect key="frame" x="0.0" y="123" width="1024" height="645"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="645" id="HMF-Po-cL9"/>
+                                    <constraint firstAttribute="width" constant="1024" id="a8i-Bl-8jE"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5S5-N6-f5S" firstAttribute="centerX" secondItem="iia-VH-Lcz" secondAttribute="centerX" id="2m8-f1-7NC"/>
+                            <constraint firstItem="5S5-N6-f5S" firstAttribute="centerY" secondItem="iia-VH-Lcz" secondAttribute="centerY" constant="61.5" id="k2q-Uq-jHb"/>
+                        </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1024" height="768"/>
@@ -172,7 +179,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHD-No-URj">
-                                <rect key="frame" x="200.5" y="398" width="57.5" height="31"/>
+                                <rect key="frame" x="200.5" y="398.5" width="57.5" height="31"/>
                                 <fontDescription key="fontDescription" name="Back_to_School_" family="Back to School " pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -188,7 +195,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nN-o8-v2J">
-                                <rect key="frame" x="477.5" y="398" width="57.5" height="31"/>
+                                <rect key="frame" x="477.5" y="398.5" width="57.5" height="31"/>
                                 <fontDescription key="fontDescription" name="Back_to_School_" family="Back to School " pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -204,7 +211,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHs-yi-Hmz">
-                                <rect key="frame" x="200.5" y="712" width="57.5" height="31"/>
+                                <rect key="frame" x="200.5" y="712.5" width="57.5" height="31"/>
                                 <fontDescription key="fontDescription" name="Back_to_School_" family="Back to School " pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -220,7 +227,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UP4-hd-ob5">
-                                <rect key="frame" x="477.5" y="712" width="57.5" height="31"/>
+                                <rect key="frame" x="477.5" y="712.5" width="57.5" height="31"/>
                                 <fontDescription key="fontDescription" name="Back_to_School_" family="Back to School " pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -246,13 +253,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rL-OD-fBc">
-                                <rect key="frame" x="767.5" y="712" width="57.5" height="31"/>
+                                <rect key="frame" x="767.5" y="712.5" width="57.5" height="31"/>
                                 <fontDescription key="fontDescription" name="Back_to_School_" family="Back to School " pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bl-UU-WF2">
-                                <rect key="frame" x="767.5" y="398" width="57.5" height="31"/>
+                                <rect key="frame" x="767.5" y="398.5" width="57.5" height="31"/>
                                 <fontDescription key="fontDescription" name="Back_to_School_" family="Back to School " pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -323,10 +330,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Km-p8-k8n" userLabel="AnswerView">
-                                <rect key="frame" x="0.0" y="135" width="1024" height="599"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Km-p8-k8n" userLabel="AnswerView">
+                                <rect key="frame" x="0.0" y="135" width="1024" height="633"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="633" id="NCX-da-Kro"/>
+                                    <constraint firstAttribute="width" constant="1024" id="QFw-Op-Arg"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -337,10 +347,12 @@
                             <constraint firstItem="hDd-lL-JhK" firstAttribute="centerY" secondItem="FTt-1q-4e2" secondAttribute="centerY" constant="107" id="3fR-4w-tgT"/>
                             <constraint firstItem="J2z-1i-UhD" firstAttribute="centerX" secondItem="FTt-1q-4e2" secondAttribute="centerX" constant="191" id="4Jn-Ye-Jvt"/>
                             <constraint firstItem="3uN-LQ-ja8" firstAttribute="centerX" secondItem="FTt-1q-4e2" secondAttribute="centerX" constant="-118" id="9b7-kP-XC4"/>
+                            <constraint firstItem="9Km-p8-k8n" firstAttribute="centerX" secondItem="FTt-1q-4e2" secondAttribute="centerX" id="BmI-y4-bpx"/>
                             <constraint firstItem="inT-JW-jdR" firstAttribute="centerX" secondItem="FTt-1q-4e2" secondAttribute="centerX" constant="284" id="DZq-8N-S29"/>
                             <constraint firstItem="nHD-No-URj" firstAttribute="centerY" secondItem="FTt-1q-4e2" secondAttribute="centerY" constant="29.5" id="Ek4-FW-DJ7"/>
                             <constraint firstItem="hDd-lL-JhK" firstAttribute="centerX" secondItem="FTt-1q-4e2" secondAttribute="centerX" constant="-99" id="HVo-gL-OnK"/>
                             <constraint firstItem="8ve-mQ-Pxb" firstAttribute="centerX" secondItem="FTt-1q-4e2" secondAttribute="centerX" constant="-376" id="JeU-z0-ijb"/>
+                            <constraint firstItem="9Km-p8-k8n" firstAttribute="centerY" secondItem="FTt-1q-4e2" secondAttribute="centerY" constant="67.5" id="KHV-MC-g2x"/>
                             <constraint firstItem="nHD-No-URj" firstAttribute="centerX" secondItem="FTt-1q-4e2" secondAttribute="centerX" constant="-283" id="Lwn-Lt-9Y2"/>
                             <constraint firstItem="eHs-yi-Hmz" firstAttribute="centerX" secondItem="FTt-1q-4e2" secondAttribute="centerX" constant="-283" id="Nb3-kg-6i2"/>
                             <constraint firstItem="J2z-1i-UhD" firstAttribute="centerY" secondItem="FTt-1q-4e2" secondAttribute="centerY" constant="107" id="OD7-kc-ghq"/>
@@ -678,19 +690,24 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YOz-1y-MMz">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOz-1y-MMz">
                                 <rect key="frame" x="0.0" y="135" width="1024" height="599"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1024" id="4J9-nX-PCq"/>
+                                    <constraint firstAttribute="height" constant="599" id="Wmm-FO-10e"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="YOz-1y-MMz" firstAttribute="centerY" secondItem="Dqw-ML-x6Y" secondAttribute="centerY" constant="50.5" id="BsK-LH-0TG"/>
                             <constraint firstItem="nRe-S4-zh5" firstAttribute="centerY" secondItem="Dqw-ML-x6Y" secondAttribute="centerY" constant="60.5" id="E7X-Hw-Ova"/>
                             <constraint firstItem="z4F-6y-D2K" firstAttribute="centerY" secondItem="Dqw-ML-x6Y" secondAttribute="centerY" constant="68" id="K2X-IQ-ShY"/>
                             <constraint firstItem="nRe-S4-zh5" firstAttribute="centerX" secondItem="Dqw-ML-x6Y" secondAttribute="centerX" constant="-379" id="Ruz-LQ-LG9"/>
                             <constraint firstItem="z4F-6y-D2K" firstAttribute="centerX" secondItem="Dqw-ML-x6Y" secondAttribute="centerX" constant="405" id="fen-td-OnW"/>
                             <constraint firstItem="nqe-xD-yLJ" firstAttribute="centerX" secondItem="Dqw-ML-x6Y" secondAttribute="centerX" constant="4.5" id="kRG-xc-KsD"/>
+                            <constraint firstItem="YOz-1y-MMz" firstAttribute="centerX" secondItem="Dqw-ML-x6Y" secondAttribute="centerX" id="lBH-XR-0eu"/>
                             <constraint firstItem="nqe-xD-yLJ" firstAttribute="centerY" secondItem="Dqw-ML-x6Y" secondAttribute="centerY" constant="60.5" id="yWo-2b-h5H"/>
                         </constraints>
                     </view>
@@ -896,6 +913,6 @@
         <image name="help" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nW9-If-qQg"/>
+        <segue reference="Pqg-FB-DLy"/>
     </inferredMetricsTieBreakers>
 </document>

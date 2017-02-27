@@ -14,13 +14,11 @@ class Vocabulary {
     private let name: String
     private let imageName: String
     private let soundName: String
-    private let soundExtension: String
     
-    init(name: String, imageName: String, soundName: String, soundExtension: String){
+    init(name: String, imageName: String, soundName: String){
         self.name = name
         self.imageName = imageName
         self.soundName = soundName
-        self.soundExtension = soundExtension
     }
     
     func getName() -> String {
@@ -33,10 +31,6 @@ class Vocabulary {
     
     func getSoundName() -> String {
         return self.soundName
-    }
-    
-    func getSoundExtension() -> String {
-        return self.soundExtension
     }
     
 }

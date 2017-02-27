@@ -29,8 +29,9 @@ class ThemeSelectionViewController: UIViewController {
         
         super.viewDidLoad()
         
-        coordonneeX = self.StackViewButtons.frame.origin.x
-        coordonneeY = self.StackViewButtons.frame.origin.y
+        self.view.backgroundColor = UIColor(red: 0.647, green: 0.796, blue: 0.8862, alpha: 1)
+        coordonneeX = self.StackViewButtons.frame.origin.x + 50
+        coordonneeY = self.StackViewButtons.frame.origin.y - 100
 
         listTheme = modeleTheme.getAllThemes()
     
@@ -46,7 +47,6 @@ class ThemeSelectionViewController: UIViewController {
     // On transmet le thème à la fenêtre suivante
     // On lance la fenêtre
     func buttonClick(sender: UIButton!) {
-        
         theme = modeleTheme.getThemeAndVocabulary(identifier: listTheme[sender.tag].getName())
         
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
@@ -60,7 +60,6 @@ class ThemeSelectionViewController: UIViewController {
 
     // Fonction permettant de placer les éléments sur la fenêtre d'accueil
     func setButtonsOnStackView(i: Int) {
-        
         let buttonImage = UIButton(frame: CGRect(x: coordonneeX, y: coordonneeY, width: 150, height: 150))
         customImageButtons(buttonToCustom: buttonImage, indice: i)
         
@@ -72,11 +71,11 @@ class ThemeSelectionViewController: UIViewController {
         
         coordonneeX = coordonneeX + 250
         
-        if coordonneeX >= 750 {
+        if coordonneeX >= 1000 {
             
-            coordonneeY = coordonneeY + 150
+            coordonneeY = coordonneeY + 200
             
-            coordonneeX = 0
+            coordonneeX = self.StackViewButtons.frame.origin.x + 50
         }
     }
     

@@ -8,30 +8,122 @@
 
 /* Begin PBXBuildFile section */
 		240DBE481E2B436800C7F96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240DBE471E2B436800C7F96B /* Main.storyboard */; };
+		24223EBF1E64A132006269CA /* bear.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E441E64A132006269CA /* bear.m4a */; };
+		24223EC01E64A132006269CA /* beavel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E451E64A132006269CA /* beavel.m4a */; };
+		24223EC11E64A132006269CA /* cat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E461E64A132006269CA /* cat.m4a */; };
+		24223EC21E64A132006269CA /* cow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E471E64A132006269CA /* cow.m4a */; };
+		24223EC31E64A132006269CA /* dog.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E481E64A132006269CA /* dog.m4a */; };
+		24223EC41E64A132006269CA /* elephant.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E491E64A132006269CA /* elephant.m4a */; };
+		24223EC51E64A132006269CA /* giraffe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E4A1E64A132006269CA /* giraffe.m4a */; };
+		24223EC61E64A132006269CA /* hippopotamus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E4B1E64A132006269CA /* hippopotamus.m4a */; };
+		24223EC71E64A132006269CA /* lion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E4C1E64A132006269CA /* lion.m4a */; };
+		24223EC81E64A132006269CA /* mouse.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E4D1E64A132006269CA /* mouse.m4a */; };
+		24223EC91E64A132006269CA /* owl.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E4E1E64A132006269CA /* owl.m4a */; };
+		24223ECA1E64A132006269CA /* panther.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E4F1E64A132006269CA /* panther.m4a */; };
+		24223ECB1E64A132006269CA /* pig.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E501E64A132006269CA /* pig.m4a */; };
+		24223ECC1E64A132006269CA /* sheep.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E511E64A132006269CA /* sheep.m4a */; };
+		24223ECD1E64A132006269CA /* squirrel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E521E64A132006269CA /* squirrel.m4a */; };
+		24223ECE1E64A132006269CA /* tiger.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E531E64A132006269CA /* tiger.m4a */; };
+		24223ECF1E64A132006269CA /* dolphin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E551E64A132006269CA /* dolphin.m4a */; };
+		24223ED01E64A132006269CA /* fish.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E561E64A132006269CA /* fish.m4a */; };
+		24223ED11E64A132006269CA /* hippocampus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E571E64A132006269CA /* hippocampus.m4a */; };
+		24223ED21E64A132006269CA /* orca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E581E64A132006269CA /* orca.m4a */; };
+		24223ED31E64A132006269CA /* seal.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E591E64A132006269CA /* seal.m4a */; };
+		24223ED41E64A132006269CA /* seaTurtle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E5A1E64A132006269CA /* seaTurtle.m4a */; };
+		24223ED51E64A132006269CA /* shark.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E5B1E64A132006269CA /* shark.m4a */; };
+		24223ED61E64A132006269CA /* swordfish.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E5C1E64A132006269CA /* swordfish.m4a */; };
+		24223ED71E64A132006269CA /* whale.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E5D1E64A132006269CA /* whale.m4a */; };
+		24223ED81E64A132006269CA /* london.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E5F1E64A132006269CA /* london.m4a */; };
+		24223ED91E64A132006269CA /* moscow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E601E64A132006269CA /* moscow.m4a */; };
+		24223EDA1E64A132006269CA /* newYork.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E611E64A132006269CA /* newYork.m4a */; };
+		24223EDB1E64A132006269CA /* paris.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E621E64A132006269CA /* paris.m4a */; };
+		24223EDC1E64A132006269CA /* rome.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E631E64A132006269CA /* rome.m4a */; };
+		24223EDD1E64A132006269CA /* sydney.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E641E64A132006269CA /* sydney.m4a */; };
+		24223EDE1E64A132006269CA /* tokyo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E651E64A132006269CA /* tokyo.m4a */; };
+		24223EDF1E64A132006269CA /* washington.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E661E64A132006269CA /* washington.m4a */; };
+		24223EE01E64A132006269CA /* Bells.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E681E64A132006269CA /* Bells.m4a */; };
+		24223EE11E64A132006269CA /* Chimney.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E691E64A132006269CA /* Chimney.m4a */; };
+		24223EE21E64A132006269CA /* ChristmasTree.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E6A1E64A132006269CA /* ChristmasTree.m4a */; };
+		24223EE31E64A132006269CA /* Presents.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E6B1E64A132006269CA /* Presents.m4a */; };
+		24223EE41E64A132006269CA /* SantaClaus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E6C1E64A132006269CA /* SantaClaus.m4a */; };
+		24223EE51E64A132006269CA /* Snowman.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E6D1E64A132006269CA /* Snowman.m4a */; };
+		24223EE61E64A132006269CA /* Star.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E6E1E64A132006269CA /* Star.m4a */; };
+		24223EE71E64A132006269CA /* black.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E701E64A132006269CA /* black.m4a */; };
+		24223EE81E64A132006269CA /* blue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E711E64A132006269CA /* blue.m4a */; };
+		24223EE91E64A132006269CA /* brown.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E721E64A132006269CA /* brown.m4a */; };
+		24223EEA1E64A132006269CA /* green.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E731E64A132006269CA /* green.m4a */; };
+		24223EEB1E64A132006269CA /* grey.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E741E64A132006269CA /* grey.m4a */; };
+		24223EEC1E64A132006269CA /* orange.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E751E64A132006269CA /* orange.m4a */; };
+		24223EED1E64A132006269CA /* pink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E761E64A132006269CA /* pink.m4a */; };
+		24223EEE1E64A132006269CA /* purple.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E771E64A132006269CA /* purple.m4a */; };
+		24223EEF1E64A132006269CA /* red.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E781E64A132006269CA /* red.m4a */; };
+		24223EF01E64A132006269CA /* white.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E791E64A132006269CA /* white.m4a */; };
+		24223EF11E64A132006269CA /* yellow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E7A1E64A132006269CA /* yellow.m4a */; };
+		24223EF21E64A132006269CA /* Amazing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E7C1E64A132006269CA /* Amazing.m4a */; };
+		24223EF31E64A132006269CA /* Awesome.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E7D1E64A132006269CA /* Awesome.m4a */; };
+		24223EF41E64A132006269CA /* Fantastic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E7E1E64A132006269CA /* Fantastic.m4a */; };
+		24223EF51E64A132006269CA /* Great.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E7F1E64A132006269CA /* Great.m4a */; };
+		24223EF61E64A132006269CA /* Incredible.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E801E64A132006269CA /* Incredible.m4a */; };
+		24223EF71E64A132006269CA /* NiceJob.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E811E64A132006269CA /* NiceJob.m4a */; };
+		24223EF81E64A132006269CA /* Ariel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E831E64A132006269CA /* Ariel.m4a */; };
+		24223EF91E64A132006269CA /* Aurora.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E841E64A132006269CA /* Aurora.m4a */; };
+		24223EFA1E64A132006269CA /* Belle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E851E64A132006269CA /* Belle.m4a */; };
+		24223EFB1E64A132006269CA /* Cinderella.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E861E64A132006269CA /* Cinderella.m4a */; };
+		24223EFC1E64A132006269CA /* Rapunzel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E871E64A132006269CA /* Rapunzel.m4a */; };
+		24223EFD1E64A132006269CA /* SnowWhite.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E881E64A132006269CA /* SnowWhite.m4a */; };
+		24223EFE1E64A132006269CA /* Book.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E8A1E64A132006269CA /* Book.m4a */; };
+		24223EFF1E64A132006269CA /* Glue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E8B1E64A132006269CA /* Glue.m4a */; };
+		24223F001E64A132006269CA /* Pen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E8C1E64A132006269CA /* Pen.m4a */; };
+		24223F011E64A132006269CA /* PencilCase.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E8D1E64A132006269CA /* PencilCase.m4a */; };
+		24223F021E64A132006269CA /* School.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E8E1E64A132006269CA /* School.m4a */; };
+		24223F031E64A132006269CA /* SchoolBag.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E8F1E64A132006269CA /* SchoolBag.m4a */; };
+		24223F041E64A132006269CA /* Scissors.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E901E64A132006269CA /* Scissors.m4a */; };
+		24223F051E64A132006269CA /* aggressive.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E921E64A132006269CA /* aggressive.m4a */; };
+		24223F061E64A132006269CA /* angry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E931E64A132006269CA /* angry.m4a */; };
+		24223F071E64A132006269CA /* anxious.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E941E64A132006269CA /* anxious.m4a */; };
+		24223F081E64A132006269CA /* bored.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E951E64A132006269CA /* bored.m4a */; };
+		24223F091E64A132006269CA /* confused.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E961E64A132006269CA /* confused.m4a */; };
+		24223F0A1E64A132006269CA /* embarassed.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E971E64A132006269CA /* embarassed.m4a */; };
+		24223F0B1E64A132006269CA /* excited.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E981E64A132006269CA /* excited.m4a */; };
+		24223F0C1E64A132006269CA /* frustrated.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E991E64A132006269CA /* frustrated.m4a */; };
+		24223F0D1E64A132006269CA /* happy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E9A1E64A132006269CA /* happy.m4a */; };
+		24223F0E1E64A132006269CA /* hurt.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E9B1E64A132006269CA /* hurt.m4a */; };
+		24223F0F1E64A132006269CA /* sad.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E9C1E64A132006269CA /* sad.m4a */; };
+		24223F101E64A132006269CA /* scared.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E9D1E64A132006269CA /* scared.m4a */; };
+		24223F111E64A132006269CA /* sick.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E9E1E64A132006269CA /* sick.m4a */; };
+		24223F121E64A132006269CA /* surprised.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223E9F1E64A132006269CA /* surprised.m4a */; };
+		24223F131E64A132006269CA /* tired.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EA01E64A132006269CA /* tired.m4a */; };
+		24223F141E64A132006269CA /* actor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EA21E64A132006269CA /* actor.m4a */; };
+		24223F151E64A132006269CA /* baker.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EA31E64A132006269CA /* baker.m4a */; };
+		24223F161E64A132006269CA /* butcher.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EA41E64A132006269CA /* butcher.m4a */; };
+		24223F171E64A132006269CA /* doctor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EA51E64A132006269CA /* doctor.m4a */; };
+		24223F181E64A132006269CA /* fireman.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EA61E64A132006269CA /* fireman.m4a */; };
+		24223F191E64A132006269CA /* nurse.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EA71E64A132006269CA /* nurse.m4a */; };
+		24223F1A1E64A132006269CA /* policeman.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EA81E64A132006269CA /* policeman.m4a */; };
+		24223F1B1E64A132006269CA /* postman.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EA91E64A132006269CA /* postman.m4a */; };
+		24223F1C1E64A132006269CA /* teacher.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EAA1E64A132006269CA /* teacher.m4a */; };
+		24223F1D1E64A132006269CA /* waiter.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EAB1E64A132006269CA /* waiter.m4a */; };
+		24223F1E1E64A132006269CA /* 0.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EAD1E64A132006269CA /* 0.m4a */; };
+		24223F1F1E64A132006269CA /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EAE1E64A132006269CA /* 1.m4a */; };
+		24223F201E64A132006269CA /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EAF1E64A132006269CA /* 2.m4a */; };
+		24223F211E64A132006269CA /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EB01E64A132006269CA /* 3.m4a */; };
+		24223F221E64A132006269CA /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EB11E64A132006269CA /* 4.m4a */; };
+		24223F231E64A132006269CA /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EB21E64A132006269CA /* 5.m4a */; };
+		24223F241E64A132006269CA /* 6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EB31E64A132006269CA /* 6.m4a */; };
+		24223F251E64A132006269CA /* 7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EB41E64A132006269CA /* 7.m4a */; };
+		24223F261E64A132006269CA /* 8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EB51E64A132006269CA /* 8.m4a */; };
+		24223F271E64A132006269CA /* 9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EB61E64A132006269CA /* 9.m4a */; };
+		24223F281E64A132006269CA /* behind.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EB81E64A132006269CA /* behind.m4a */; };
+		24223F291E64A132006269CA /* between.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EB91E64A132006269CA /* between.m4a */; };
+		24223F2A1E64A132006269CA /* in.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EBA1E64A132006269CA /* in.m4a */; };
+		24223F2B1E64A132006269CA /* inFrontOf.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EBB1E64A132006269CA /* inFrontOf.m4a */; };
+		24223F2C1E64A132006269CA /* nextTo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EBC1E64A132006269CA /* nextTo.m4a */; };
+		24223F2D1E64A132006269CA /* on.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EBD1E64A132006269CA /* on.m4a */; };
+		24223F2E1E64A132006269CA /* under.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 24223EBE1E64A132006269CA /* under.m4a */; };
 		243C6C1D1E2116B300EE9AB2 /* ModeleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C6C1C1E2116B300EE9AB2 /* ModeleTheme.swift */; };
 		243C6C201E21194600EE9AB2 /* DALTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C6C1F1E21194600EE9AB2 /* DALTheme.swift */; };
 		243C6C271E2165C500EE9AB2 /* school.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 243C6C261E2165C500EE9AB2 /* school.ttf */; };
 		243C6C2D1E21E3B100EE9AB2 /* PutInOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C6C2C1E21E3B100EE9AB2 /* PutInOrderViewController.swift */; };
-		246014A71E36750400168E3D /* Bells.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014911E36750400168E3D /* Bells.m4a */; };
-		246014A81E36750400168E3D /* Chimney.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014921E36750400168E3D /* Chimney.m4a */; };
-		246014A91E36750400168E3D /* ChristmasTree.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014931E36750400168E3D /* ChristmasTree.m4a */; };
-		246014AA1E36750400168E3D /* Presents.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014941E36750400168E3D /* Presents.m4a */; };
-		246014AB1E36750400168E3D /* SantaClaus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014951E36750400168E3D /* SantaClaus.m4a */; };
-		246014AC1E36750400168E3D /* Snowman.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014961E36750400168E3D /* Snowman.m4a */; };
-		246014AD1E36750400168E3D /* Star.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014971E36750400168E3D /* Star.m4a */; };
-		246014AE1E36750400168E3D /* Amazing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014991E36750400168E3D /* Amazing.m4a */; };
-		246014AF1E36750400168E3D /* Awesome.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2460149A1E36750400168E3D /* Awesome.m4a */; };
-		246014B01E36750400168E3D /* Fantastic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2460149B1E36750400168E3D /* Fantastic.m4a */; };
-		246014B11E36750400168E3D /* Great.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2460149C1E36750400168E3D /* Great.m4a */; };
-		246014B21E36750400168E3D /* Incredible.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2460149D1E36750400168E3D /* Incredible.m4a */; };
-		246014B31E36750400168E3D /* NiceJob.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2460149E1E36750400168E3D /* NiceJob.m4a */; };
-		246014B41E36750400168E3D /* Book.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A01E36750400168E3D /* Book.m4a */; };
-		246014B51E36750400168E3D /* Glue.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A11E36750400168E3D /* Glue.m4a */; };
-		246014B61E36750400168E3D /* Pen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A21E36750400168E3D /* Pen.m4a */; };
-		246014B71E36750400168E3D /* PencilCase.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A31E36750400168E3D /* PencilCase.m4a */; };
-		246014B81E36750400168E3D /* School.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A41E36750400168E3D /* School.m4a */; };
-		246014B91E36750400168E3D /* SchoolBag.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A51E36750400168E3D /* SchoolBag.m4a */; };
-		246014BA1E36750400168E3D /* Scissors.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 246014A61E36750400168E3D /* Scissors.m4a */; };
 		249D8E551E0AC0DF0044E90B /* VocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249D8E541E0AC0DF0044E90B /* VocabularyViewController.swift */; };
 		249D8E571E0AFD5A0044E90B /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249D8E561E0AFD5A0044E90B /* MatchViewController.swift */; };
 		24B2CA311E09BB2C0005982D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B2CA301E09BB2C0005982D /* AppDelegate.swift */; };
@@ -46,30 +138,122 @@
 
 /* Begin PBXFileReference section */
 		240DBE471E2B436800C7F96B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		24223E441E64A132006269CA /* bear.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bear.m4a; sourceTree = "<group>"; };
+		24223E451E64A132006269CA /* beavel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beavel.m4a; sourceTree = "<group>"; };
+		24223E461E64A132006269CA /* cat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.m4a; sourceTree = "<group>"; };
+		24223E471E64A132006269CA /* cow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cow.m4a; sourceTree = "<group>"; };
+		24223E481E64A132006269CA /* dog.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog.m4a; sourceTree = "<group>"; };
+		24223E491E64A132006269CA /* elephant.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.m4a; sourceTree = "<group>"; };
+		24223E4A1E64A132006269CA /* giraffe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.m4a; sourceTree = "<group>"; };
+		24223E4B1E64A132006269CA /* hippopotamus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippopotamus.m4a; sourceTree = "<group>"; };
+		24223E4C1E64A132006269CA /* lion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.m4a; sourceTree = "<group>"; };
+		24223E4D1E64A132006269CA /* mouse.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = mouse.m4a; sourceTree = "<group>"; };
+		24223E4E1E64A132006269CA /* owl.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = owl.m4a; sourceTree = "<group>"; };
+		24223E4F1E64A132006269CA /* panther.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = panther.m4a; sourceTree = "<group>"; };
+		24223E501E64A132006269CA /* pig.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pig.m4a; sourceTree = "<group>"; };
+		24223E511E64A132006269CA /* sheep.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sheep.m4a; sourceTree = "<group>"; };
+		24223E521E64A132006269CA /* squirrel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = squirrel.m4a; sourceTree = "<group>"; };
+		24223E531E64A132006269CA /* tiger.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiger.m4a; sourceTree = "<group>"; };
+		24223E551E64A132006269CA /* dolphin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dolphin.m4a; sourceTree = "<group>"; };
+		24223E561E64A132006269CA /* fish.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = fish.m4a; sourceTree = "<group>"; };
+		24223E571E64A132006269CA /* hippocampus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippocampus.m4a; sourceTree = "<group>"; };
+		24223E581E64A132006269CA /* orca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = orca.m4a; sourceTree = "<group>"; };
+		24223E591E64A132006269CA /* seal.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = seal.m4a; sourceTree = "<group>"; };
+		24223E5A1E64A132006269CA /* seaTurtle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = seaTurtle.m4a; sourceTree = "<group>"; };
+		24223E5B1E64A132006269CA /* shark.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = shark.m4a; sourceTree = "<group>"; };
+		24223E5C1E64A132006269CA /* swordfish.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = swordfish.m4a; sourceTree = "<group>"; };
+		24223E5D1E64A132006269CA /* whale.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = whale.m4a; sourceTree = "<group>"; };
+		24223E5F1E64A132006269CA /* london.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = london.m4a; sourceTree = "<group>"; };
+		24223E601E64A132006269CA /* moscow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moscow.m4a; sourceTree = "<group>"; };
+		24223E611E64A132006269CA /* newYork.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = newYork.m4a; sourceTree = "<group>"; };
+		24223E621E64A132006269CA /* paris.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = paris.m4a; sourceTree = "<group>"; };
+		24223E631E64A132006269CA /* rome.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = rome.m4a; sourceTree = "<group>"; };
+		24223E641E64A132006269CA /* sydney.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sydney.m4a; sourceTree = "<group>"; };
+		24223E651E64A132006269CA /* tokyo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tokyo.m4a; sourceTree = "<group>"; };
+		24223E661E64A132006269CA /* washington.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = washington.m4a; sourceTree = "<group>"; };
+		24223E681E64A132006269CA /* Bells.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bells.m4a; sourceTree = "<group>"; };
+		24223E691E64A132006269CA /* Chimney.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chimney.m4a; sourceTree = "<group>"; };
+		24223E6A1E64A132006269CA /* ChristmasTree.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChristmasTree.m4a; sourceTree = "<group>"; };
+		24223E6B1E64A132006269CA /* Presents.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Presents.m4a; sourceTree = "<group>"; };
+		24223E6C1E64A132006269CA /* SantaClaus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SantaClaus.m4a; sourceTree = "<group>"; };
+		24223E6D1E64A132006269CA /* Snowman.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snowman.m4a; sourceTree = "<group>"; };
+		24223E6E1E64A132006269CA /* Star.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Star.m4a; sourceTree = "<group>"; };
+		24223E701E64A132006269CA /* black.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = black.m4a; sourceTree = "<group>"; };
+		24223E711E64A132006269CA /* blue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = blue.m4a; sourceTree = "<group>"; };
+		24223E721E64A132006269CA /* brown.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = brown.m4a; sourceTree = "<group>"; };
+		24223E731E64A132006269CA /* green.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = green.m4a; sourceTree = "<group>"; };
+		24223E741E64A132006269CA /* grey.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = grey.m4a; sourceTree = "<group>"; };
+		24223E751E64A132006269CA /* orange.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = orange.m4a; sourceTree = "<group>"; };
+		24223E761E64A132006269CA /* pink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pink.m4a; sourceTree = "<group>"; };
+		24223E771E64A132006269CA /* purple.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = purple.m4a; sourceTree = "<group>"; };
+		24223E781E64A132006269CA /* red.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = red.m4a; sourceTree = "<group>"; };
+		24223E791E64A132006269CA /* white.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = white.m4a; sourceTree = "<group>"; };
+		24223E7A1E64A132006269CA /* yellow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yellow.m4a; sourceTree = "<group>"; };
+		24223E7C1E64A132006269CA /* Amazing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amazing.m4a; sourceTree = "<group>"; };
+		24223E7D1E64A132006269CA /* Awesome.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Awesome.m4a; sourceTree = "<group>"; };
+		24223E7E1E64A132006269CA /* Fantastic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fantastic.m4a; sourceTree = "<group>"; };
+		24223E7F1E64A132006269CA /* Great.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Great.m4a; sourceTree = "<group>"; };
+		24223E801E64A132006269CA /* Incredible.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Incredible.m4a; sourceTree = "<group>"; };
+		24223E811E64A132006269CA /* NiceJob.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = NiceJob.m4a; sourceTree = "<group>"; };
+		24223E831E64A132006269CA /* Ariel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ariel.m4a; sourceTree = "<group>"; };
+		24223E841E64A132006269CA /* Aurora.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aurora.m4a; sourceTree = "<group>"; };
+		24223E851E64A132006269CA /* Belle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Belle.m4a; sourceTree = "<group>"; };
+		24223E861E64A132006269CA /* Cinderella.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cinderella.m4a; sourceTree = "<group>"; };
+		24223E871E64A132006269CA /* Rapunzel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rapunzel.m4a; sourceTree = "<group>"; };
+		24223E881E64A132006269CA /* SnowWhite.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SnowWhite.m4a; sourceTree = "<group>"; };
+		24223E8A1E64A132006269CA /* Book.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Book.m4a; sourceTree = "<group>"; };
+		24223E8B1E64A132006269CA /* Glue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Glue.m4a; sourceTree = "<group>"; };
+		24223E8C1E64A132006269CA /* Pen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pen.m4a; sourceTree = "<group>"; };
+		24223E8D1E64A132006269CA /* PencilCase.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = PencilCase.m4a; sourceTree = "<group>"; };
+		24223E8E1E64A132006269CA /* School.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = School.m4a; sourceTree = "<group>"; };
+		24223E8F1E64A132006269CA /* SchoolBag.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SchoolBag.m4a; sourceTree = "<group>"; };
+		24223E901E64A132006269CA /* Scissors.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scissors.m4a; sourceTree = "<group>"; };
+		24223E921E64A132006269CA /* aggressive.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = aggressive.m4a; sourceTree = "<group>"; };
+		24223E931E64A132006269CA /* angry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = angry.m4a; sourceTree = "<group>"; };
+		24223E941E64A132006269CA /* anxious.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = anxious.m4a; sourceTree = "<group>"; };
+		24223E951E64A132006269CA /* bored.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bored.m4a; sourceTree = "<group>"; };
+		24223E961E64A132006269CA /* confused.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = confused.m4a; sourceTree = "<group>"; };
+		24223E971E64A132006269CA /* embarassed.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = embarassed.m4a; sourceTree = "<group>"; };
+		24223E981E64A132006269CA /* excited.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = excited.m4a; sourceTree = "<group>"; };
+		24223E991E64A132006269CA /* frustrated.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = frustrated.m4a; sourceTree = "<group>"; };
+		24223E9A1E64A132006269CA /* happy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = happy.m4a; sourceTree = "<group>"; };
+		24223E9B1E64A132006269CA /* hurt.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hurt.m4a; sourceTree = "<group>"; };
+		24223E9C1E64A132006269CA /* sad.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sad.m4a; sourceTree = "<group>"; };
+		24223E9D1E64A132006269CA /* scared.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = scared.m4a; sourceTree = "<group>"; };
+		24223E9E1E64A132006269CA /* sick.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sick.m4a; sourceTree = "<group>"; };
+		24223E9F1E64A132006269CA /* surprised.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = surprised.m4a; sourceTree = "<group>"; };
+		24223EA01E64A132006269CA /* tired.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tired.m4a; sourceTree = "<group>"; };
+		24223EA21E64A132006269CA /* actor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = actor.m4a; sourceTree = "<group>"; };
+		24223EA31E64A132006269CA /* baker.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = baker.m4a; sourceTree = "<group>"; };
+		24223EA41E64A132006269CA /* butcher.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = butcher.m4a; sourceTree = "<group>"; };
+		24223EA51E64A132006269CA /* doctor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = doctor.m4a; sourceTree = "<group>"; };
+		24223EA61E64A132006269CA /* fireman.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = fireman.m4a; sourceTree = "<group>"; };
+		24223EA71E64A132006269CA /* nurse.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nurse.m4a; sourceTree = "<group>"; };
+		24223EA81E64A132006269CA /* policeman.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = policeman.m4a; sourceTree = "<group>"; };
+		24223EA91E64A132006269CA /* postman.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = postman.m4a; sourceTree = "<group>"; };
+		24223EAA1E64A132006269CA /* teacher.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = teacher.m4a; sourceTree = "<group>"; };
+		24223EAB1E64A132006269CA /* waiter.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = waiter.m4a; sourceTree = "<group>"; };
+		24223EAD1E64A132006269CA /* 0.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.m4a; sourceTree = "<group>"; };
+		24223EAE1E64A132006269CA /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = "<group>"; };
+		24223EAF1E64A132006269CA /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4a; sourceTree = "<group>"; };
+		24223EB01E64A132006269CA /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4a; sourceTree = "<group>"; };
+		24223EB11E64A132006269CA /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.m4a; sourceTree = "<group>"; };
+		24223EB21E64A132006269CA /* 5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.m4a; sourceTree = "<group>"; };
+		24223EB31E64A132006269CA /* 6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.m4a; sourceTree = "<group>"; };
+		24223EB41E64A132006269CA /* 7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7.m4a; sourceTree = "<group>"; };
+		24223EB51E64A132006269CA /* 8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.m4a; sourceTree = "<group>"; };
+		24223EB61E64A132006269CA /* 9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 9.m4a; sourceTree = "<group>"; };
+		24223EB81E64A132006269CA /* behind.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = behind.m4a; sourceTree = "<group>"; };
+		24223EB91E64A132006269CA /* between.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = between.m4a; sourceTree = "<group>"; };
+		24223EBA1E64A132006269CA /* in.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = in.m4a; sourceTree = "<group>"; };
+		24223EBB1E64A132006269CA /* inFrontOf.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = inFrontOf.m4a; sourceTree = "<group>"; };
+		24223EBC1E64A132006269CA /* nextTo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nextTo.m4a; sourceTree = "<group>"; };
+		24223EBD1E64A132006269CA /* on.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = on.m4a; sourceTree = "<group>"; };
+		24223EBE1E64A132006269CA /* under.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = under.m4a; sourceTree = "<group>"; };
 		243C6C1C1E2116B300EE9AB2 /* ModeleTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeleTheme.swift; sourceTree = "<group>"; };
 		243C6C1F1E21194600EE9AB2 /* DALTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DALTheme.swift; sourceTree = "<group>"; };
 		243C6C261E2165C500EE9AB2 /* school.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = school.ttf; path = Font/school.ttf; sourceTree = SOURCE_ROOT; };
 		243C6C2C1E21E3B100EE9AB2 /* PutInOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PutInOrderViewController.swift; sourceTree = "<group>"; };
-		246014911E36750400168E3D /* Bells.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bells.m4a; sourceTree = "<group>"; };
-		246014921E36750400168E3D /* Chimney.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chimney.m4a; sourceTree = "<group>"; };
-		246014931E36750400168E3D /* ChristmasTree.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChristmasTree.m4a; sourceTree = "<group>"; };
-		246014941E36750400168E3D /* Presents.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Presents.m4a; sourceTree = "<group>"; };
-		246014951E36750400168E3D /* SantaClaus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SantaClaus.m4a; sourceTree = "<group>"; };
-		246014961E36750400168E3D /* Snowman.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snowman.m4a; sourceTree = "<group>"; };
-		246014971E36750400168E3D /* Star.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Star.m4a; sourceTree = "<group>"; };
-		246014991E36750400168E3D /* Amazing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amazing.m4a; sourceTree = "<group>"; };
-		2460149A1E36750400168E3D /* Awesome.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Awesome.m4a; sourceTree = "<group>"; };
-		2460149B1E36750400168E3D /* Fantastic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fantastic.m4a; sourceTree = "<group>"; };
-		2460149C1E36750400168E3D /* Great.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Great.m4a; sourceTree = "<group>"; };
-		2460149D1E36750400168E3D /* Incredible.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Incredible.m4a; sourceTree = "<group>"; };
-		2460149E1E36750400168E3D /* NiceJob.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = NiceJob.m4a; sourceTree = "<group>"; };
-		246014A01E36750400168E3D /* Book.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Book.m4a; sourceTree = "<group>"; };
-		246014A11E36750400168E3D /* Glue.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Glue.m4a; sourceTree = "<group>"; };
-		246014A21E36750400168E3D /* Pen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pen.m4a; sourceTree = "<group>"; };
-		246014A31E36750400168E3D /* PencilCase.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = PencilCase.m4a; sourceTree = "<group>"; };
-		246014A41E36750400168E3D /* School.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = School.m4a; sourceTree = "<group>"; };
-		246014A51E36750400168E3D /* SchoolBag.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SchoolBag.m4a; sourceTree = "<group>"; };
-		246014A61E36750400168E3D /* Scissors.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Scissors.m4a; sourceTree = "<group>"; };
 		249D8E541E0AC0DF0044E90B /* VocabularyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VocabularyViewController.swift; sourceTree = "<group>"; };
 		249D8E561E0AFD5A0044E90B /* MatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
 		24B2CA2D1E09BB2B0005982D /* EnglishZZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishZZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +279,221 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24223E421E64A132006269CA /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				24223E431E64A132006269CA /* animaux */,
+				24223E541E64A132006269CA /* animauxMarins */,
+				24223E5E1E64A132006269CA /* capital */,
+				24223E671E64A132006269CA /* Christmas */,
+				24223E6F1E64A132006269CA /* colors */,
+				24223E7B1E64A132006269CA /* Congratulation */,
+				24223E821E64A132006269CA /* Disney */,
+				24223E891E64A132006269CA /* Ecole */,
+				24223E911E64A132006269CA /* feelings */,
+				24223EA11E64A132006269CA /* metier */,
+				24223EAC1E64A132006269CA /* numbers */,
+				24223EB71E64A132006269CA /* preposition */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		24223E431E64A132006269CA /* animaux */ = {
+			isa = PBXGroup;
+			children = (
+				24223E441E64A132006269CA /* bear.m4a */,
+				24223E451E64A132006269CA /* beavel.m4a */,
+				24223E461E64A132006269CA /* cat.m4a */,
+				24223E471E64A132006269CA /* cow.m4a */,
+				24223E481E64A132006269CA /* dog.m4a */,
+				24223E491E64A132006269CA /* elephant.m4a */,
+				24223E4A1E64A132006269CA /* giraffe.m4a */,
+				24223E4B1E64A132006269CA /* hippopotamus.m4a */,
+				24223E4C1E64A132006269CA /* lion.m4a */,
+				24223E4D1E64A132006269CA /* mouse.m4a */,
+				24223E4E1E64A132006269CA /* owl.m4a */,
+				24223E4F1E64A132006269CA /* panther.m4a */,
+				24223E501E64A132006269CA /* pig.m4a */,
+				24223E511E64A132006269CA /* sheep.m4a */,
+				24223E521E64A132006269CA /* squirrel.m4a */,
+				24223E531E64A132006269CA /* tiger.m4a */,
+			);
+			path = animaux;
+			sourceTree = "<group>";
+		};
+		24223E541E64A132006269CA /* animauxMarins */ = {
+			isa = PBXGroup;
+			children = (
+				24223E551E64A132006269CA /* dolphin.m4a */,
+				24223E561E64A132006269CA /* fish.m4a */,
+				24223E571E64A132006269CA /* hippocampus.m4a */,
+				24223E581E64A132006269CA /* orca.m4a */,
+				24223E591E64A132006269CA /* seal.m4a */,
+				24223E5A1E64A132006269CA /* seaTurtle.m4a */,
+				24223E5B1E64A132006269CA /* shark.m4a */,
+				24223E5C1E64A132006269CA /* swordfish.m4a */,
+				24223E5D1E64A132006269CA /* whale.m4a */,
+			);
+			path = animauxMarins;
+			sourceTree = "<group>";
+		};
+		24223E5E1E64A132006269CA /* capital */ = {
+			isa = PBXGroup;
+			children = (
+				24223E5F1E64A132006269CA /* london.m4a */,
+				24223E601E64A132006269CA /* moscow.m4a */,
+				24223E611E64A132006269CA /* newYork.m4a */,
+				24223E621E64A132006269CA /* paris.m4a */,
+				24223E631E64A132006269CA /* rome.m4a */,
+				24223E641E64A132006269CA /* sydney.m4a */,
+				24223E651E64A132006269CA /* tokyo.m4a */,
+				24223E661E64A132006269CA /* washington.m4a */,
+			);
+			path = capital;
+			sourceTree = "<group>";
+		};
+		24223E671E64A132006269CA /* Christmas */ = {
+			isa = PBXGroup;
+			children = (
+				24223E681E64A132006269CA /* Bells.m4a */,
+				24223E691E64A132006269CA /* Chimney.m4a */,
+				24223E6A1E64A132006269CA /* ChristmasTree.m4a */,
+				24223E6B1E64A132006269CA /* Presents.m4a */,
+				24223E6C1E64A132006269CA /* SantaClaus.m4a */,
+				24223E6D1E64A132006269CA /* Snowman.m4a */,
+				24223E6E1E64A132006269CA /* Star.m4a */,
+			);
+			path = Christmas;
+			sourceTree = "<group>";
+		};
+		24223E6F1E64A132006269CA /* colors */ = {
+			isa = PBXGroup;
+			children = (
+				24223E701E64A132006269CA /* black.m4a */,
+				24223E711E64A132006269CA /* blue.m4a */,
+				24223E721E64A132006269CA /* brown.m4a */,
+				24223E731E64A132006269CA /* green.m4a */,
+				24223E741E64A132006269CA /* grey.m4a */,
+				24223E751E64A132006269CA /* orange.m4a */,
+				24223E761E64A132006269CA /* pink.m4a */,
+				24223E771E64A132006269CA /* purple.m4a */,
+				24223E781E64A132006269CA /* red.m4a */,
+				24223E791E64A132006269CA /* white.m4a */,
+				24223E7A1E64A132006269CA /* yellow.m4a */,
+			);
+			path = colors;
+			sourceTree = "<group>";
+		};
+		24223E7B1E64A132006269CA /* Congratulation */ = {
+			isa = PBXGroup;
+			children = (
+				24223E7C1E64A132006269CA /* Amazing.m4a */,
+				24223E7D1E64A132006269CA /* Awesome.m4a */,
+				24223E7E1E64A132006269CA /* Fantastic.m4a */,
+				24223E7F1E64A132006269CA /* Great.m4a */,
+				24223E801E64A132006269CA /* Incredible.m4a */,
+				24223E811E64A132006269CA /* NiceJob.m4a */,
+			);
+			path = Congratulation;
+			sourceTree = "<group>";
+		};
+		24223E821E64A132006269CA /* Disney */ = {
+			isa = PBXGroup;
+			children = (
+				24223E831E64A132006269CA /* Ariel.m4a */,
+				24223E841E64A132006269CA /* Aurora.m4a */,
+				24223E851E64A132006269CA /* Belle.m4a */,
+				24223E861E64A132006269CA /* Cinderella.m4a */,
+				24223E871E64A132006269CA /* Rapunzel.m4a */,
+				24223E881E64A132006269CA /* SnowWhite.m4a */,
+			);
+			path = Disney;
+			sourceTree = "<group>";
+		};
+		24223E891E64A132006269CA /* Ecole */ = {
+			isa = PBXGroup;
+			children = (
+				24223E8A1E64A132006269CA /* Book.m4a */,
+				24223E8B1E64A132006269CA /* Glue.m4a */,
+				24223E8C1E64A132006269CA /* Pen.m4a */,
+				24223E8D1E64A132006269CA /* PencilCase.m4a */,
+				24223E8E1E64A132006269CA /* School.m4a */,
+				24223E8F1E64A132006269CA /* SchoolBag.m4a */,
+				24223E901E64A132006269CA /* Scissors.m4a */,
+			);
+			path = Ecole;
+			sourceTree = "<group>";
+		};
+		24223E911E64A132006269CA /* feelings */ = {
+			isa = PBXGroup;
+			children = (
+				24223E921E64A132006269CA /* aggressive.m4a */,
+				24223E931E64A132006269CA /* angry.m4a */,
+				24223E941E64A132006269CA /* anxious.m4a */,
+				24223E951E64A132006269CA /* bored.m4a */,
+				24223E961E64A132006269CA /* confused.m4a */,
+				24223E971E64A132006269CA /* embarassed.m4a */,
+				24223E981E64A132006269CA /* excited.m4a */,
+				24223E991E64A132006269CA /* frustrated.m4a */,
+				24223E9A1E64A132006269CA /* happy.m4a */,
+				24223E9B1E64A132006269CA /* hurt.m4a */,
+				24223E9C1E64A132006269CA /* sad.m4a */,
+				24223E9D1E64A132006269CA /* scared.m4a */,
+				24223E9E1E64A132006269CA /* sick.m4a */,
+				24223E9F1E64A132006269CA /* surprised.m4a */,
+				24223EA01E64A132006269CA /* tired.m4a */,
+			);
+			path = feelings;
+			sourceTree = "<group>";
+		};
+		24223EA11E64A132006269CA /* metier */ = {
+			isa = PBXGroup;
+			children = (
+				24223EA21E64A132006269CA /* actor.m4a */,
+				24223EA31E64A132006269CA /* baker.m4a */,
+				24223EA41E64A132006269CA /* butcher.m4a */,
+				24223EA51E64A132006269CA /* doctor.m4a */,
+				24223EA61E64A132006269CA /* fireman.m4a */,
+				24223EA71E64A132006269CA /* nurse.m4a */,
+				24223EA81E64A132006269CA /* policeman.m4a */,
+				24223EA91E64A132006269CA /* postman.m4a */,
+				24223EAA1E64A132006269CA /* teacher.m4a */,
+				24223EAB1E64A132006269CA /* waiter.m4a */,
+			);
+			path = metier;
+			sourceTree = "<group>";
+		};
+		24223EAC1E64A132006269CA /* numbers */ = {
+			isa = PBXGroup;
+			children = (
+				24223EAD1E64A132006269CA /* 0.m4a */,
+				24223EAE1E64A132006269CA /* 1.m4a */,
+				24223EAF1E64A132006269CA /* 2.m4a */,
+				24223EB01E64A132006269CA /* 3.m4a */,
+				24223EB11E64A132006269CA /* 4.m4a */,
+				24223EB21E64A132006269CA /* 5.m4a */,
+				24223EB31E64A132006269CA /* 6.m4a */,
+				24223EB41E64A132006269CA /* 7.m4a */,
+				24223EB51E64A132006269CA /* 8.m4a */,
+				24223EB61E64A132006269CA /* 9.m4a */,
+			);
+			path = numbers;
+			sourceTree = "<group>";
+		};
+		24223EB71E64A132006269CA /* preposition */ = {
+			isa = PBXGroup;
+			children = (
+				24223EB81E64A132006269CA /* behind.m4a */,
+				24223EB91E64A132006269CA /* between.m4a */,
+				24223EBA1E64A132006269CA /* in.m4a */,
+				24223EBB1E64A132006269CA /* inFrontOf.m4a */,
+				24223EBC1E64A132006269CA /* nextTo.m4a */,
+				24223EBD1E64A132006269CA /* on.m4a */,
+				24223EBE1E64A132006269CA /* under.m4a */,
+			);
+			path = preposition;
+			sourceTree = "<group>";
+		};
 		243C6C1B1E21166700EE9AB2 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,62 +518,11 @@
 			name = Font;
 			sourceTree = "<group>";
 		};
-		2460148F1E36750400168E3D /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-				246014901E36750400168E3D /* Christmas */,
-				246014981E36750400168E3D /* Congratulation */,
-				2460149F1E36750400168E3D /* Ecole */,
-			);
-			path = Sound;
-			sourceTree = "<group>";
-		};
-		246014901E36750400168E3D /* Christmas */ = {
-			isa = PBXGroup;
-			children = (
-				246014911E36750400168E3D /* Bells.m4a */,
-				246014921E36750400168E3D /* Chimney.m4a */,
-				246014931E36750400168E3D /* ChristmasTree.m4a */,
-				246014941E36750400168E3D /* Presents.m4a */,
-				246014951E36750400168E3D /* SantaClaus.m4a */,
-				246014961E36750400168E3D /* Snowman.m4a */,
-				246014971E36750400168E3D /* Star.m4a */,
-			);
-			path = Christmas;
-			sourceTree = "<group>";
-		};
-		246014981E36750400168E3D /* Congratulation */ = {
-			isa = PBXGroup;
-			children = (
-				246014991E36750400168E3D /* Amazing.m4a */,
-				2460149A1E36750400168E3D /* Awesome.m4a */,
-				2460149B1E36750400168E3D /* Fantastic.m4a */,
-				2460149C1E36750400168E3D /* Great.m4a */,
-				2460149D1E36750400168E3D /* Incredible.m4a */,
-				2460149E1E36750400168E3D /* NiceJob.m4a */,
-			);
-			path = Congratulation;
-			sourceTree = "<group>";
-		};
-		2460149F1E36750400168E3D /* Ecole */ = {
-			isa = PBXGroup;
-			children = (
-				246014A01E36750400168E3D /* Book.m4a */,
-				246014A11E36750400168E3D /* Glue.m4a */,
-				246014A21E36750400168E3D /* Pen.m4a */,
-				246014A31E36750400168E3D /* PencilCase.m4a */,
-				246014A41E36750400168E3D /* School.m4a */,
-				246014A51E36750400168E3D /* SchoolBag.m4a */,
-				246014A61E36750400168E3D /* Scissors.m4a */,
-			);
-			path = Ecole;
-			sourceTree = "<group>";
-		};
 		24B2CA241E09BB2B0005982D = {
 			isa = PBXGroup;
 			children = (
 				24B2CA2F1E09BB2B0005982D /* EnglishZZ */,
-				2460148F1E36750400168E3D /* Sound */,
+				24223E421E64A132006269CA /* Sound */,
 				24B2CA2E1E09BB2B0005982D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -285,30 +633,122 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				246014B91E36750400168E3D /* SchoolBag.m4a in Resources */,
-				246014B81E36750400168E3D /* School.m4a in Resources */,
-				246014AD1E36750400168E3D /* Star.m4a in Resources */,
-				246014B71E36750400168E3D /* PencilCase.m4a in Resources */,
-				246014B31E36750400168E3D /* NiceJob.m4a in Resources */,
-				246014AA1E36750400168E3D /* Presents.m4a in Resources */,
+				24223EC81E64A132006269CA /* mouse.m4a in Resources */,
+				24223F011E64A132006269CA /* PencilCase.m4a in Resources */,
+				24223F131E64A132006269CA /* tired.m4a in Resources */,
+				24223F151E64A132006269CA /* baker.m4a in Resources */,
+				24223EDC1E64A132006269CA /* rome.m4a in Resources */,
+				24223F101E64A132006269CA /* scared.m4a in Resources */,
+				24223F2E1E64A132006269CA /* under.m4a in Resources */,
+				24223EED1E64A132006269CA /* pink.m4a in Resources */,
+				24223F0F1E64A132006269CA /* sad.m4a in Resources */,
+				24223ED01E64A132006269CA /* fish.m4a in Resources */,
+				24223EC11E64A132006269CA /* cat.m4a in Resources */,
+				24223F261E64A132006269CA /* 8.m4a in Resources */,
+				24223ED71E64A132006269CA /* whale.m4a in Resources */,
+				24223F231E64A132006269CA /* 5.m4a in Resources */,
+				24223ECC1E64A132006269CA /* sheep.m4a in Resources */,
+				24223EDB1E64A132006269CA /* paris.m4a in Resources */,
+				24223F0D1E64A132006269CA /* happy.m4a in Resources */,
+				24223EF41E64A132006269CA /* Fantastic.m4a in Resources */,
+				24223F181E64A132006269CA /* fireman.m4a in Resources */,
+				24223ED21E64A132006269CA /* orca.m4a in Resources */,
+				24223EF31E64A132006269CA /* Awesome.m4a in Resources */,
+				24223F2D1E64A132006269CA /* on.m4a in Resources */,
+				24223F2A1E64A132006269CA /* in.m4a in Resources */,
+				24223EFB1E64A132006269CA /* Cinderella.m4a in Resources */,
 				24B2CA3B1E09BB2C0005982D /* LaunchScreen.storyboard in Resources */,
-				246014B51E36750400168E3D /* Glue.m4a in Resources */,
-				246014AF1E36750400168E3D /* Awesome.m4a in Resources */,
-				246014AB1E36750400168E3D /* SantaClaus.m4a in Resources */,
+				24223EC61E64A132006269CA /* hippopotamus.m4a in Resources */,
+				24223EE61E64A132006269CA /* Star.m4a in Resources */,
+				24223F111E64A132006269CA /* sick.m4a in Resources */,
+				24223F191E64A132006269CA /* nurse.m4a in Resources */,
+				24223F211E64A132006269CA /* 3.m4a in Resources */,
+				24223F041E64A132006269CA /* Scissors.m4a in Resources */,
+				24223F061E64A132006269CA /* angry.m4a in Resources */,
 				243C6C271E2165C500EE9AB2 /* school.ttf in Resources */,
-				246014B01E36750400168E3D /* Fantastic.m4a in Resources */,
-				246014A91E36750400168E3D /* ChristmasTree.m4a in Resources */,
-				246014A81E36750400168E3D /* Chimney.m4a in Resources */,
-				246014AC1E36750400168E3D /* Snowman.m4a in Resources */,
-				246014B11E36750400168E3D /* Great.m4a in Resources */,
+				24223EDA1E64A132006269CA /* newYork.m4a in Resources */,
+				24223EFA1E64A132006269CA /* Belle.m4a in Resources */,
+				24223F251E64A132006269CA /* 7.m4a in Resources */,
+				24223EC51E64A132006269CA /* giraffe.m4a in Resources */,
+				24223EDD1E64A132006269CA /* sydney.m4a in Resources */,
+				24223F071E64A132006269CA /* anxious.m4a in Resources */,
+				24223F031E64A132006269CA /* SchoolBag.m4a in Resources */,
+				24223F1F1E64A132006269CA /* 1.m4a in Resources */,
+				24223F091E64A132006269CA /* confused.m4a in Resources */,
+				24223EF11E64A132006269CA /* yellow.m4a in Resources */,
+				24223F271E64A132006269CA /* 9.m4a in Resources */,
+				24223F2B1E64A132006269CA /* inFrontOf.m4a in Resources */,
+				24223EBF1E64A132006269CA /* bear.m4a in Resources */,
+				24223EE71E64A132006269CA /* black.m4a in Resources */,
+				24223EFC1E64A132006269CA /* Rapunzel.m4a in Resources */,
+				24223F051E64A132006269CA /* aggressive.m4a in Resources */,
+				24223EE21E64A132006269CA /* ChristmasTree.m4a in Resources */,
+				24223F021E64A132006269CA /* School.m4a in Resources */,
+				24223EC21E64A132006269CA /* cow.m4a in Resources */,
+				24223ECA1E64A132006269CA /* panther.m4a in Resources */,
+				24223EEE1E64A132006269CA /* purple.m4a in Resources */,
+				24223EE41E64A132006269CA /* SantaClaus.m4a in Resources */,
+				24223EE31E64A132006269CA /* Presents.m4a in Resources */,
+				24223EFE1E64A132006269CA /* Book.m4a in Resources */,
+				24223F241E64A132006269CA /* 6.m4a in Resources */,
+				24223F1C1E64A132006269CA /* teacher.m4a in Resources */,
 				24B2CA381E09BB2C0005982D /* Assets.xcassets in Resources */,
+				24223F221E64A132006269CA /* 4.m4a in Resources */,
+				24223EE51E64A132006269CA /* Snowman.m4a in Resources */,
+				24223EF01E64A132006269CA /* white.m4a in Resources */,
 				240DBE481E2B436800C7F96B /* Main.storyboard in Resources */,
-				246014AE1E36750400168E3D /* Amazing.m4a in Resources */,
-				246014A71E36750400168E3D /* Bells.m4a in Resources */,
-				246014B21E36750400168E3D /* Incredible.m4a in Resources */,
-				246014BA1E36750400168E3D /* Scissors.m4a in Resources */,
-				246014B61E36750400168E3D /* Pen.m4a in Resources */,
-				246014B41E36750400168E3D /* Book.m4a in Resources */,
+				24223F141E64A132006269CA /* actor.m4a in Resources */,
+				24223EF51E64A132006269CA /* Great.m4a in Resources */,
+				24223ED31E64A132006269CA /* seal.m4a in Resources */,
+				24223F1E1E64A132006269CA /* 0.m4a in Resources */,
+				24223F171E64A132006269CA /* doctor.m4a in Resources */,
+				24223EE81E64A132006269CA /* blue.m4a in Resources */,
+				24223ED81E64A132006269CA /* london.m4a in Resources */,
+				24223EC41E64A132006269CA /* elephant.m4a in Resources */,
+				24223F281E64A132006269CA /* behind.m4a in Resources */,
+				24223EF81E64A132006269CA /* Ariel.m4a in Resources */,
+				24223F161E64A132006269CA /* butcher.m4a in Resources */,
+				24223EFF1E64A132006269CA /* Glue.m4a in Resources */,
+				24223EDF1E64A132006269CA /* washington.m4a in Resources */,
+				24223ED11E64A132006269CA /* hippocampus.m4a in Resources */,
+				24223ECB1E64A132006269CA /* pig.m4a in Resources */,
+				24223EEC1E64A132006269CA /* orange.m4a in Resources */,
+				24223ED51E64A132006269CA /* shark.m4a in Resources */,
+				24223EE11E64A132006269CA /* Chimney.m4a in Resources */,
+				24223ED91E64A132006269CA /* moscow.m4a in Resources */,
+				24223EC31E64A132006269CA /* dog.m4a in Resources */,
+				24223F121E64A132006269CA /* surprised.m4a in Resources */,
+				24223F0C1E64A132006269CA /* frustrated.m4a in Resources */,
+				24223EEA1E64A132006269CA /* green.m4a in Resources */,
+				24223EF61E64A132006269CA /* Incredible.m4a in Resources */,
+				24223EF71E64A132006269CA /* NiceJob.m4a in Resources */,
+				24223ED61E64A132006269CA /* swordfish.m4a in Resources */,
+				24223EC91E64A132006269CA /* owl.m4a in Resources */,
+				24223F291E64A132006269CA /* between.m4a in Resources */,
+				24223ED41E64A132006269CA /* seaTurtle.m4a in Resources */,
+				24223EE01E64A132006269CA /* Bells.m4a in Resources */,
+				24223ECD1E64A132006269CA /* squirrel.m4a in Resources */,
+				24223EC01E64A132006269CA /* beavel.m4a in Resources */,
+				24223F0A1E64A132006269CA /* embarassed.m4a in Resources */,
+				24223EFD1E64A132006269CA /* SnowWhite.m4a in Resources */,
+				24223F1D1E64A132006269CA /* waiter.m4a in Resources */,
+				24223F001E64A132006269CA /* Pen.m4a in Resources */,
+				24223F1B1E64A132006269CA /* postman.m4a in Resources */,
+				24223EF91E64A132006269CA /* Aurora.m4a in Resources */,
+				24223F0E1E64A132006269CA /* hurt.m4a in Resources */,
+				24223ECE1E64A132006269CA /* tiger.m4a in Resources */,
+				24223EE91E64A132006269CA /* brown.m4a in Resources */,
+				24223F1A1E64A132006269CA /* policeman.m4a in Resources */,
+				24223ECF1E64A132006269CA /* dolphin.m4a in Resources */,
+				24223EF21E64A132006269CA /* Amazing.m4a in Resources */,
+				24223EC71E64A132006269CA /* lion.m4a in Resources */,
+				24223F081E64A132006269CA /* bored.m4a in Resources */,
+				24223EEF1E64A132006269CA /* red.m4a in Resources */,
+				24223F2C1E64A132006269CA /* nextTo.m4a in Resources */,
+				24223F0B1E64A132006269CA /* excited.m4a in Resources */,
+				24223F201E64A132006269CA /* 2.m4a in Resources */,
+				24223EEB1E64A132006269CA /* grey.m4a in Resources */,
+				24223EDE1E64A132006269CA /* tokyo.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
